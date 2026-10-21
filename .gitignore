@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dataset and extracted data
+*.zip
+data/
+dataset/
+datasets/
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+checkpoints/
+weights/
+
+# Generated outputs
+outputs/
+runs/
+wandb/
+mlruns/
+lightning_logs/
+agent_runs/
+predictions/
+visualizations/
+gradcam*/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editor and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# Generated dataset audit reports
+reports/
